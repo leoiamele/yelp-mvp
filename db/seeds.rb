@@ -1,3 +1,6 @@
+Review.delete_all
+Restaurant.delete_all
+
 10.times do 
 categories = ["chinese", "italian", "japanese", "french", "belgian"]
 restaurant = Restaurant.new(name: "Belladona", address: "Niceto 3388", phone_number: "4443-6765", category: categories.sample)
@@ -9,6 +12,9 @@ restaurant.save
 end
 
 # require 'faker'
+
+# Review.delete_all
+# Restaurant.delete_all
 
 # 10.times do 
 # categories = ["chinese", "italian", "japanese", "french", "belgian"]
